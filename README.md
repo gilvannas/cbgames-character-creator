@@ -29,12 +29,12 @@ Aplicação de desktop full-stack para criação e personalização de personage
 
 O código-fonte está organizado em três pastas principais, localizadas na raiz do projeto:
 
-'''
+```
 /
 ├── cbgames-app/          (Código-fonte do Backend)
 ├── frontend/             (Código-fonte do Frontend)
 └── cbgames-desktop/      (Código-fonte do empacotador Electron)
-'''
+```
 
 ## 🚀 Como Executar o Projeto a Partir do Código-Fonte
 
