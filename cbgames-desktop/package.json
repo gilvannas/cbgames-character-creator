@@ -1,0 +1,28 @@
+{
+  "name": "cbgames-desktop",
+  "version": "1.0.0",
+  "description": "Criador de Personagens da CB Games",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "CB Games",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.0.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.cbgames.charactercreator",
+    "productName": "CB Games Creator",
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "preload.js"
+    ],
+    "directories": {
+      "output": "release"
+    }
+  }
+}

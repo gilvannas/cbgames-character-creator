@@ -1,0 +1,12 @@
+# Dependências
+**/node_modules
+
+# Arquivos de Build e Entrega
+**/dist
+**/release
+
+# Arquivos de Ambiente e Segredos
+**/.env
+
+# Arquivos de sistema
+.DS_Store
